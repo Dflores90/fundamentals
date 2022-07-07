@@ -1,13 +1,13 @@
-num1 = 42
-num2 = 2.3
-boolean = True
-string = 'Hello World'
-pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
-person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
-fruit = ('blueberry', 'strawberry', 'banana')
+# num1 = 42           # number
+# num2 = 2.3       # variable declaration
+# boolean = True      # boolean
+# string = 'Hello World'        # string
+# pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']                     # list
+# person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}                  # dictionary
+# fruit = ('blueberry', 'strawberry', 'banana')    # tuples
 print(type(fruit))
-print(pizza_toppings[1])
-pizza_toppings.append('Mushrooms')
+# print(pizza_toppings[1])  # access value
+# pizza_toppings.append('Mushrooms')   # add value
 print(person['name'])
 person['name'] = 'George'
 person['eye_color'] = 'blue'
@@ -17,7 +17,7 @@ if num1 > 45:
     print("It's greater")
 else:
     print("It's lower")
-
+                                            #   if, else if, else conditionals
 if len(string) < 5:
     print("It's a short word!")
 elif len(string) > 15:
@@ -25,16 +25,16 @@ elif len(string) > 15:
 else:
     print("Just right!")
 
-for x in range(5):
-    print(x)
-for x in range(2,5):
-    print(x)
-for x in range(2,10,3):
-    print(x)
-x = 0
-while(x < 5):
-    print(x)
-    x += 1
+# for x in range(5):
+#     print(x)
+# for x in range(2,5):
+#     print(x)                                  #for loop
+# for x in range(2,10,3):
+#     print(x)
+# x = 0
+# while(x < 5):
+#     print(x)                            #while loop
+#     x += 1
 
 pizza_toppings.pop()
 pizza_toppings.pop(1)
@@ -50,8 +50,8 @@ for topping in pizza_toppings:
     if topping == 'Olives':
         break
 
-def print_hello_ten_times():
-    for num in range(10):
+# def print_hello_ten_times():  #function
+    # for num in range(10 #paramiter):    #argument
         print('Hello')
 
 print_hello_ten_times()
@@ -71,13 +71,13 @@ print_hello_x_or_ten_times(4)
 
 
 """
-Bonus section
+Bonus section                                             #multi-line comments
 """
 
 # print(num3)
 # num3 = 72
 # fruit[0] = 'cranberry'
-# print(person['favorite_team'])
+# print(person['favorite_team'])                    #single line comments
 # print(pizza_toppings[7])
 #   print(boolean)
 # fruit.append('raspberry')
